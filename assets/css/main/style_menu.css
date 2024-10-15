@@ -1,0 +1,43 @@
+nav{
+    background-color: rgb(108, 86, 123);
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+.btm-open{
+    font-size: 30px;
+    margin-bottom: 27px;
+    margin-left: 15px;
+    color: rgb(189, 174, 194);
+}
+.btm-close{
+    font-size: 48.7px;
+    color: rgb(189, 174, 194);
+}
+nav a{
+    margin-top: 0;
+    font-size: 20px;
+    transition: 0.35s;
+    color: rgb(189, 174, 194);
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+nav a:hover{
+    color: rgb(108, 86, 123);
+    background-color: rgb(189, 174, 194);
+    transition: 0.3s;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.35s;
+}
+a{
+    margin-top: 26px;
+    text-decoration: none;
+}
