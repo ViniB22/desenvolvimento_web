@@ -15,6 +15,9 @@
     <script src="../assets/js/ordenated_programs/exercise3.js" defer></script>
     <script src="../assets/js/ordenated_programs/exercise4.js" defer></script>
     <script src="../assets/js/ordenated_programs/exercise5.js" defer></script>
+    <script src="../assets/js/sorting_method/selection.js" defer></script>
+    <script src="../assets/js/sorting_method/bubble.js" defer></script>
+    <script src="../assets/js/sorting_method/insertion.js" defer></script>
     <title>ordenated_programs</title>
 </head>
 
@@ -48,7 +51,128 @@
                     <img src="../assets/img/bubble-sort.jpg" alt="" title="método bubble sort">
                 </div>
                 <div class="content_container">
-                    <p class="content_title">A imagem acima é uma representação visual do método Bubble Sort, um algoritmo de ordenação que funciona comparando pares de elementos adjacentes no array e trocando-os se estiverem na ordem errada. Este processo é repetido até que o array esteja completamente ordenado, geralmente em questão de milissegundos para pequenos conjuntos de dados.</p>
+                    <p class="content_title">A imagem acima é uma representação visual do método Bubble Sort, um
+                        algoritmo de ordenação que funciona comparando pares de elementos adjacentes no array e
+                        trocando-os se estiverem na ordem errada. Este processo é repetido até que o array esteja
+                        completamente ordenado, geralmente em questão de milissegundos para pequenos conjuntos de dados.
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="container">
+            <div class="container_title">
+                <h1>Exercícios Bubble Sort</h1>
+            </div>
+            <article>
+                <div class="content_container">
+                    <p class="content_title">Exercício 1 - Gerar um array aleatório com tamanho igual a 10 elementos com
+                        intervalo de 1 a 20. Usando o algoritmo Bubble Sort, ordenar o array em ordem crescente ou
+                        decrescente.</p>
+                    <div class="divided_container_button">
+                        <button onclick="alimentaArray()">Alimentar Array</button>
+                        <button onclick="ordenar()">Organizar Array</button>
+                    </div>
+                    <div class="divided_container">
+                        <div class="res" id="res1_i"></div>
+                        <div class="res" id="res1_f"></div>
+                    </div>
+                    <hr>
+                    <p class="content_title">Exercício 2 - Gerar um array com valores fixos: [5,3,1,4,2]. Usando o
+                        algoritmo Bubble Sort, ordenar o array em ordem crescente ou decrescente.</p>
+                    <div class="divided_container_button2">
+                        <button onclick="ordenar2_crescente()">Organizar Array crescente</button>
+                        <button class="descending" onclick="ordenar2_decrescente()">Organizar Array decrescente</button>
+                    </div>
+                    <div class="divided_container">
+                        <div class="res" id="res2_cre"></div>
+                        <div class="res" id="res2_decre"></div>
+                    </div>
+                    <hr>
+                    <p class="content_title">Exercício 3 - Gerar um array aleatório com tamanho igual a 10 elementos com
+                        intervalo de 1 a 20. Usando o algoritmo Bubble Sort, ordenar o array em ordem crescente ou
+                        decrescente.</p>
+                    <div class="divided_container_button3">
+                        <button class="beginning" onclick="alimentaArray3()">Adicionar array</button>
+                        <button onclick="ordenar3_crescente()">Organizar crescente</button>
+                        <button class="descending2" onclick="ordenar3_decrescente()">Organizar decrescente</button>
+                    </div>
+                    <div class="divided_container2">
+                        <div class="res" id="res3_i"></div>
+                        <div class="res" id="res3_cre"></div>
+                        <div class="res" id="res3_decre"></div>
+                    </div>
+                    <hr>
+                    <p class="content_title"></p>
+                </div>
+            </article>
+        </div>
+        <div class="container">
+            <div class="container_title">
+                <h1>Métodos de Ordenação</h1>
+            </div>
+            <article>
+                <div class="conteiner_divided">
+                    <div class="content_container">
+                        <h1>Selection sort</h1>
+                        <hr>
+                        <div class="content_container">
+                            <label for="quant1">adicione a quantidade de números no Array</label>
+                            <input type="number" id="quant1" placeholder="numero"><br>
+                            <label for="maxmin1">adicione os valores máximo e mínimo no array respectivamente</label><br>
+                            <input class="half" type="number" id="max1" placeholder="máximo">
+                            <input class="half" type="number" id="min1" placeholder="mínimo">
+                            <button id="criarArray1">criar</button><br><br>
+                            <button id="selection_ordenation_cres">ordenar crescente</button><br><br>
+                            <button id="selection_ordenation_desc">ordenar decrescente</button><br>
+                            <div class="res">
+                                <div id="res4_i"></div>
+                                <div id="res4_cre"></div>
+                                <div id="res4_decre"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteiner_divided">
+                    <div class="content_container">
+                        <h1>Bubble sort</h1>
+                        <hr>
+                        <div class="content">
+                            <label for="quant2">adicione a quantidade de números no Array</label>
+                            <input type="number" id="quant2" placeholder="numero"><br>
+                            <label for="maxmin">adicione os valores máximo e mínimo no array respectivamente</label><br>
+                            <input class="half" type="number" id="max2" placeholder="máximo">
+                            <input class="half" type="number" id="min2" placeholder="mínimo">
+                            <button id="criarArray2">criar</button><br><br>
+                            <button id="bubble_ordenation_cres">ordenar crescente</button><br><br>
+                            <button id="bubble_ordenation_decre">ordenar decrescente</button><br>
+                            <div class="res">
+                                <div id="res2_i"></div>
+                                <div id="res2_cre"></div>
+                                <div id="res2_decre"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteiner_divided">
+                    <div class="content_container">
+                        <h1>Insert sort</h1>
+                        <hr>
+                        <div class="content">
+                            <label for="quant3">adicione a quantidade de números no Array</label>
+                            <input type="number" id="quant3" placeholder="numero"><br>
+                            <label for="maxmin">adicione os valores máximo e mínimo no array respectivamente</label><br>
+                            <input class="half" type="number" id="max3" placeholder="máximo">
+                            <input class="half" type="number" id="min3" placeholder="mínimo">
+                            <button id="criarArray3">criar</button><br><br>
+                            <button id="insert_ordenation_cres">ordenar crescente</button><br><br>
+                            <button id="insert_ordenation_decre">ordenar decrescente</button><br>
+                            <div class="res">
+                                <div id="res3_i"></div>
+                                <div id="res3_cre"></div>
+                                <div id="res3_decre"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </div>

@@ -34,6 +34,8 @@ nav a:hover{
 main{
     display: flex;
     justify-content: center;
+    justify-self: center;
+    flex-direction: column;
     padding: 10px;
     transition: 0.35s;
 }

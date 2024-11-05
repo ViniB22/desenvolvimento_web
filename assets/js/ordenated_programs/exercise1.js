@@ -1,4 +1,5 @@
-let res1 = document.getElementById('res1')
+let res1_i = document.getElementById('res1_i')
+let res1_f = document.getElementById('res1_f')
 let array = []
 let aux = 0
 
@@ -12,7 +13,7 @@ function alimentaArray(){
         array[i] = gerarNumerosAleatorios(20,1)
     }
     
-res1.innerHTML = `Valores desordenados no Array ${array}`
+    res1_i.innerHTML = `Valores desordenados no Array ${array}`
 }
 console.log(array)
 function ordenar(){
@@ -29,6 +30,6 @@ function ordenar(){
             }
         }
     }
-    res1.innerHTML = `os elementos do array são ${array}`
+    res1_f.innerHTML = `os elementos do array são ${array}`
 }
 console.log(array)

@@ -21,7 +21,7 @@ header{
     color: rgb(189, 174, 194);
 }
 .icons_container{
-    margin-left: 70vh;
+    margin-left: 68vh;
     margin-top: 50px;
 }
 #icon{
@@ -70,4 +70,69 @@ img{
 }
 .content_title{
     color: rgb(190, 95, 57);
+}
+.content_container{
+    align-self: center;
+    text-align: center;
+}
+.divided_container{
+    display: flex;
+    justify-content: center;
+    gap: 25vh;
+}
+.divided_container2{
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+}
+.divided_container_button{
+    display: flex;
+    justify-content: center;
+    gap: 50vh;
+    margin: 15px;
+}
+.divided_container_button2{
+    display: flex;
+    justify-content: center;
+    gap: 34vh;
+    margin: 15px;
+}
+.divided_container_button3{
+    display: flex;
+    justify-content: center;
+    gap: 18vh;
+    margin: 15px;
+}
+.descending{
+    margin-left: 18px;
+}
+.beginning{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+button{
+    background-color: rgb(180, 69, 80);
+    color: rgb(246, 114, 128);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.res{
+    width: 32%;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(246, 114, 128);
+    transition: 0.3s;
+}
+hr{
+    margin-top: 15px;
+    background-color: rgb(180, 69, 80);
+    height: 2px;
+    margin-bottom: 15px;
+    border: 0;
 }
