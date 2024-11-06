@@ -12,6 +12,41 @@ header{
     display: flex;
     align-items: center;
 }
+hr{
+    margin-top: 15px;
+    background-color: rgb(180, 69, 80);
+    height: 2px;
+    margin-bottom: 15px;
+    border: 0;
+}
+input{
+    background-color:  rgb(246, 114, 128);
+    color: rgb(180, 69, 80);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+    width: 100px;
+}
+input:placeholder{
+    color: rgb(0, 0, 0);
+}
+button{
+    background-color: rgb(180, 69, 80);
+    color: rgb(246, 114, 128);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+img{
+    border-radius: 15px;
+}
+.image{
+    border: 12px solid rgb(246, 114, 128);
+}
 .itens_centralizer{
     display: flex;
     font-size: 25px;
@@ -46,9 +81,6 @@ header{
     width: 1000px;
     display: flex;
     justify-content: center;
-}
-img{
-    border-radius: 15px;
 }
 .container_title{
     background-color: rgb(246, 114, 128);
@@ -110,15 +142,6 @@ img{
     margin-right: 30px;
     margin-left: 30px;
 }
-button{
-    background-color: rgb(180, 69, 80);
-    color: rgb(246, 114, 128);
-    border: none;
-    border-radius: 15px;
-    padding: 15px;
-    font-size: 18px;
-    transition: 0.3s;
-}
 .res{
     width: 32%;
     padding: 15px;
@@ -129,10 +152,14 @@ button{
     background-color: rgb(246, 114, 128);
     transition: 0.3s;
 }
-hr{
-    margin-top: 15px;
-    background-color: rgb(180, 69, 80);
-    height: 2px;
-    margin-bottom: 15px;
-    border: 0;
+.res2{
+    margin-top: 10px;
+    width: 32%;
+    padding: 15px;
+    border-radius: 15px;
+    justify-self: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(246, 114, 128);
+    transition: 0.3s; 
 }
