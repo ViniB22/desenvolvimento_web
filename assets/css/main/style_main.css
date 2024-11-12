@@ -44,6 +44,9 @@ button{
 img{
     border-radius: 15px;
 }
+iframe{
+    border-radius: 15px;
+}
 .image{
     border: 12px solid rgb(246, 114, 128);
 }
@@ -157,6 +160,7 @@ img{
     width: 32%;
     padding: 15px;
     border-radius: 15px;
+    word-wrap: break-word;
     justify-self: center;
     font-size: 18px;
     color: rgb(255, 255, 255);

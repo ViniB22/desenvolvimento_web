@@ -18,6 +18,11 @@
     <script src="../assets/js/sorting_method/selection.js" defer></script>
     <script src="../assets/js/sorting_method/bubble.js" defer></script>
     <script src="../assets/js/sorting_method/insertion.js" defer></script>
+    <script src="../assets/js/de_and_increasing/question1.js" defer></script>
+    <script src="../assets/js/de_and_increasing/question2.js" defer></script>
+    <script src="../assets/js/prova/q01.js" defer></script>
+    <script src="../assets/js/prova/q03.js" defer></script>
+    <script src="../assets/js/prova/q05.js" defer></script>
     <title>ordenated_programs</title>
 </head>
 
@@ -183,18 +188,62 @@
         </div>
         <div class="container">
             <div class="container_title">
-                <h1>Gabarito da Prova</h1>
+                <h1>Vídeo: método de ordenação</h1>
             </div>
             <article>
-
+                <div class="content_container">
+                    <iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/GzwJOcKvQVc?si=SICuiLN2uVCAATXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </article>
         </div>
         <div class="container">
             <div class="container_title">
-                <h1>Gabarito da Prova</h1>
+                <h1>Array de ordenação Crescente e Decrescente</h1>
             </div>
             <article>
-                putz grilla meu
+                <div class="content_container">
+                    <p class="content_title">Elabore um programa em JavaScript para ordenar em modo crescente uma lista de números aleatórios entre 1 e 15, para um array de 7 números aleatórios, usando o algoritmo Bubble Sort. Apresente o resultado usando o comando console.log. Requisito 1: faça o programa em back end com o Node.js. Observação: Para a função “random”, use a seguinte expressão: valorAleatorio = Math.floor(Math.random() * (max - min + 1) + min) onde: max: maior número do intervalo e min: menor número do intervalo</p><br>
+                    <button id="gerarArray1">Criar</button><br><br>
+                    <button id="ordenarCrescente1">ordenar</button><br>
+                    <div class="res2">
+                        <div id="res7_i"></div>
+                        <div id="res7_cre"></div>
+                    </div> 
+                </div>
+                <hr>
+                <div class="content_container">
+                    <p class="content_title">Elabore um programa em JavaScript para ordenar em modo decrescente uma lista de números aleatórios entre 1 e 15, para um array de 7 números aleatórios, usando o algoritmo Bubble Sort. Apresente o resultado usando o comando console.log. Requisito 1: faça o programa em back end com o Node.js. Observação: Para a função “random”, use a seguinte expressão: valorAleatorio = Math.floor(Math.random() * (max - min + 1) + min) onde: max: maior número do intervalo e min: menor número do intervalo</p><br>
+                    <button id="gerarArray2">Criar</button><br><br>
+                    <button id="ordenarCrescente2">ordenar</button><br>
+                    <div class="res2">
+                        <div id="res8_i"></div>
+                        <div id="res8_decre"></div>
+                    </div> 
+                </div>
+            </article>
+        </div>
+        <div class="container">
+            <div class="container_title">
+                <h1>Questões da Prova</h1>
+            </div>
+            <article>
+                <div class="content_container">
+                    <p class="content_title">Elabore um programa que gera duas matrizes uma matriz 7 x 7, sendo a primeira
+                        matriz com valores iguais a 5 nas colunas de índices ímpares e valor igual a 7 nas colunas
+                        de índices pares, enquanto a segunda matriz tem seus valores iguais a 3 nas linhas de
+                        índices pares e valores iguais a 9 nas linhas de índice ímpares. Após gerar as duas
+                        matrizes, faça a soma entre elas. Use o laço “for” para elaborar a lógica do programa.
+                        Apresente o resultado usando o comando console.table. Requisito 1: faça o programa
+                        em back end com o Node.js</p>
+                        <button onclick="gerarMatrizColuna()">Gerar Matriz Coluna</button>
+                        <button onclick="gerarMatrizLinha()">Gerar Matriz Linha</button><br><br>
+                        <button onclick="somarMatriz()">Soma Matrizes</button>
+                        <div class="res2">
+                            <div id="res9_MatColu"></div>
+                            <div id="res9_MatLinha"></div>
+                            <div id="res9_Soma"></div>
+                        </div> 
+                </div>
             </article>
         </div>
     </main>
