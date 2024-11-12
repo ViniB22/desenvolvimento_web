@@ -2,7 +2,8 @@ res9_MatColu = document.getElementById('res9_MatColu')
 res9_MatLinha = document.getElementById('res9_MatLinha')
 res9_Soma = document.getElementById('res9_Soma')
 
-let matriz1 = [[0, 0, 0, 0, 0, 0, 0],
+let matriz1 = 
+[[0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
@@ -10,7 +11,8 @@ let matriz1 = [[0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0]]
 
-let matriz2 = [[0, 0, 0, 0, 0, 0, 0],
+let matriz2 = 
+[[0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
@@ -18,7 +20,8 @@ let matriz2 = [[0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0]]
 
-let matrizResposta = [[0, 0, 0, 0, 0, 0, 0],
+let matrizResposta = 
+[[0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0],
@@ -27,13 +30,6 @@ let matrizResposta = [[0, 0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0]]
 
 function gerarMatrizColuna() {
-    let matriz1 = [[0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0]]
 
     for (let i = 0; i < 7; i++) {
         for (let j = 0; j < 7; j++) {
@@ -66,13 +62,6 @@ function gerarMatrizColuna() {
 }
 
 function gerarMatrizLinha() {
-    let matriz2 = [[0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0]]
 
     for (let i = 0; i < 7; i++) {
         for (let j = 0; j < 7; j++) {
