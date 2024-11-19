@@ -110,7 +110,7 @@ function somarMatriz() {
             }
                 
             if(j==6 && i==6){
-                res9_Soma.innerHTML += " ]<hr>"
+                res9_Soma.innerHTML += "]<hr>"
             }else if(j == 6){
                 res9_Soma.innerHTML += "<br>"
             }

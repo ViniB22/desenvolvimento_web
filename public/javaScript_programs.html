@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/internet.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../assets/css/main/style_main.css">
     <link rel="stylesheet" href="../assets/css//mediaquery/style_mediaquery_main.css">
@@ -20,9 +21,12 @@
     <script src="../assets/js/sorting_method/insertion.js" defer></script>
     <script src="../assets/js/de_and_increasing/question1.js" defer></script>
     <script src="../assets/js/de_and_increasing/question2.js" defer></script>
-    <script src="../assets/js/prova/q01.js" defer></script>
-    <script src="../assets/js/prova/q03.js" defer></script>
-    <script src="../assets/js/prova/q05.js" defer></script>
+    <script src="../assets/js/revision/q01.js" defer></script>
+    <script src="../assets/js/revision/q03.js" defer></script>
+    <script src="../assets/js/revision/q05.js" defer></script>
+    <script src="../assets/js/for_while_if/for.js" defer></script>
+    <script src="../assets/js/for_while_if/while.js" defer></script>
+    <script src="../assets/js/for_while_if/if.js" defer></script>
     <title>ordenated_programs</title>
 </head>
 
@@ -32,9 +36,11 @@
         <div class="itens_centralizer">
             <h1 class="main_title">TechGallery</h1>
             <div class="icons_container">
-                <i id="icon" class="bi bi-github"></i>
-                <i id="icon" class="bi bi-file-earmark-post"></i>
-                <i id="icon" class="bi bi-triangle-fill"></i>
+                <a href="https://github.com/ViniB22"><i id="icon" class="bi bi-github"></i></a>
+                <a href="https://sites.google.com/estudante.sesisenai.org.br/apenas-professores/in%C3%ADcio"><i
+                        id="icon" class="bi bi-file-earmark-post"></i></a>
+                <a href="https://vercel.com/vinicius-projects-b4d58a2b"><i id="icon"
+                        class="bi bi-triangle-fill"></i></a>
             </div>
         </div>
     </header>
@@ -53,7 +59,8 @@
             </div>
             <article>
                 <div class="image_centralizer">
-                    <img class="image" src="../assets/img/javaScript_codes/bubble-sort.jpg" alt="" title="método bubble sort">
+                    <img class="image" src="../assets/img/javaScript_codes/bubble-sort.jpg" alt=""
+                        title="método bubble sort">
                 </div>
                 <div class="content_container">
                     <p class="content_title">A imagem acima é uma representação visual do método Bubble Sort, um
@@ -118,13 +125,14 @@
             <article>
                 <div class="conteiner_divided">
                     <div class="content_container">
-                        <img class="image"  src="../assets/img/javaScript_codes/selection.png" alt="">
+                        <img class="image" src="../assets/img/javaScript_codes/selection.png" alt="">
                         <h1>Selection sort</h1>
                         <hr>
                         <div class="content">
                             <label for="quant1">adicione a quantidade de números no Array</label>
                             <input type="number" id="quant1" placeholder="numero"><br>
-                            <label for="maxmin1">adicione os valores máximo e mínimo no array respectivamente</label><br>
+                            <label for="maxmin1">adicione os valores máximo e mínimo no array
+                                respectivamente</label><br>
                             <input class="half" type="number" id="max1" placeholder="máximo">
                             <input class="half" type="number" id="min1" placeholder="mínimo">
                             <button id="criarArray4">criar</button><br><br>
@@ -192,7 +200,10 @@
             </div>
             <article>
                 <div class="content_container">
-                    <iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/GzwJOcKvQVc?si=SICuiLN2uVCAATXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="image" width="80%" height="423px" src="https://www.youtube.com/embed/GzwJOcKvQVc?si=SICuiLN2uVCAATXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+                        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGVcVPp1wo/wcyHpUx_iQiTOEYYzAyzRg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+                    </div>
                 </div>
             </article>
         </div>
@@ -202,23 +213,33 @@
             </div>
             <article>
                 <div class="content_container">
-                    <p class="content_title">Elabore um programa em JavaScript para ordenar em modo crescente uma lista de números aleatórios entre 1 e 15, para um array de 7 números aleatórios, usando o algoritmo Bubble Sort. Apresente o resultado usando o comando console.log. Requisito 1: faça o programa em back end com o Node.js. Observação: Para a função “random”, use a seguinte expressão: valorAleatorio = Math.floor(Math.random() * (max - min + 1) + min) onde: max: maior número do intervalo e min: menor número do intervalo</p><br>
+                    <p class="content_title">Elabore um programa em JavaScript para ordenar em modo crescente uma lista
+                        de números aleatórios entre 1 e 15, para um array de 7 números aleatórios, usando o algoritmo
+                        Bubble Sort. Apresente o resultado usando o comando console.log. Requisito 1: faça o programa em
+                        back end com o Node.js. Observação: Para a função “random”, use a seguinte expressão:
+                        valorAleatorio = Math.floor(Math.random() * (max - min + 1) + min) onde: max: maior número do
+                        intervalo e min: menor número do intervalo</p><br>
                     <button id="gerarArray1">Criar</button><br><br>
                     <button id="ordenarCrescente1">ordenar</button><br>
                     <div class="res2">
                         <div id="res7_i"></div>
                         <div id="res7_cre"></div>
-                    </div> 
+                    </div>
                 </div>
                 <hr>
                 <div class="content_container">
-                    <p class="content_title">Elabore um programa em JavaScript para ordenar em modo decrescente uma lista de números aleatórios entre 1 e 15, para um array de 7 números aleatórios, usando o algoritmo Bubble Sort. Apresente o resultado usando o comando console.log. Requisito 1: faça o programa em back end com o Node.js. Observação: Para a função “random”, use a seguinte expressão: valorAleatorio = Math.floor(Math.random() * (max - min + 1) + min) onde: max: maior número do intervalo e min: menor número do intervalo</p><br>
+                    <p class="content_title">Elabore um programa em JavaScript para ordenar em modo decrescente uma
+                        lista de números aleatórios entre 1 e 15, para um array de 7 números aleatórios, usando o
+                        algoritmo Bubble Sort. Apresente o resultado usando o comando console.log. Requisito 1: faça o
+                        programa em back end com o Node.js. Observação: Para a função “random”, use a seguinte
+                        expressão: valorAleatorio = Math.floor(Math.random() * (max - min + 1) + min) onde: max: maior
+                        número do intervalo e min: menor número do intervalo</p><br>
                     <button id="gerarArray2">Criar</button><br><br>
                     <button id="ordenarCrescente2">ordenar</button><br>
                     <div class="res2">
                         <div id="res8_i"></div>
                         <div id="res8_decre"></div>
-                    </div> 
+                    </div>
                 </div>
             </article>
         </div>
@@ -228,24 +249,106 @@
             </div>
             <article>
                 <div class="content_container">
-                    <p class="content_title">Elabore um programa que gera duas matrizes uma matriz 7 x 7, sendo a primeira
+                    <p class="content_title">Elabore um programa que gera duas matrizes uma matriz 7 x 7, sendo a
+                        primeira
                         matriz com valores iguais a 5 nas colunas de índices ímpares e valor igual a 7 nas colunas
                         de índices pares, enquanto a segunda matriz tem seus valores iguais a 3 nas linhas de
                         índices pares e valores iguais a 9 nas linhas de índice ímpares. Após gerar as duas
                         matrizes, faça a soma entre elas. Use o laço “for” para elaborar a lógica do programa.
                         Apresente o resultado usando o comando console.table. Requisito 1: faça o programa
                         em back end com o Node.js</p>
-                        <button onclick="gerarMatrizColuna()">Gerar Matriz Coluna</button>
-                        <button onclick="gerarMatrizLinha()">Gerar Matriz Linha</button><br><br>
-                        <button onclick="somarMatriz()">Soma Matrizes</button>
-                        <div class="res2">
-                            <div id="res9_MatColu"></div>
-                            <div id="res9_MatLinha"></div>
-                            <div id="res9_Soma"></div>
-                        </div> 
+                    <button onclick="gerarMatrizColuna()">Gerar Matriz Coluna</button>
+                    <button onclick="gerarMatrizLinha()">Gerar Matriz Linha</button><br><br>
+                    <button onclick="somarMatriz()">Soma Matrizes</button>
+                    <div class="res2">
+                        <div id="res9_MatColu"></div>
+                        <div id="res9_MatLinha"></div>
+                        <div id="res9_Soma"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="content_container">
+                    <p class="content_title">Elabore um programa que gera uma matriz 8 x 8 de números aleatórios em um
+                        intervalo de 1 à 50. Faça a soma dos elementos das colunas cujos os índices são pares.
+                        Use o laço “for” para elaborar a lógica do programa. Apresente o resultado usando o
+                        comando console.table. Requisito 1: faça o programa em back end com o Node.js.
+                        Observação: Para a função “random”, use a expressão:
+                        valorAleatorio = Math.floor(Math.random() * (max - min + 1) ) + min
+                        onde: max: maior número do intervalo e min: menor número do intervalo</p>
+                    <button onclick="gerarMatriz2()">Gerar Matriz</button><br><br>
+                    <button onclick="somaMatrizElements()">Soma Matrizes</button>
+                    <div class="res2">
+                        <div id="res10_Mat"></div>
+                        <div id="res10_Soma"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="content_container">
+                    <p class="content_title">Elabore um programa que gera uma fila de 7 elementos, cujo primeiro
+                        elemento é 1 e
+                        o último é 7, com o uso de array. O programa deve apresentar a geração da fila
+                        mostrando o resultado gerado passo a passo com o console.log, e depois remova todos
+                        os elementos da fila mostrando passo a passo com o console.log, usando o conceito de
+                        FIFO (First In, First Out). Use o laço “for” para criar a lógica. Requisito 1: programa em
+                        back end com o Node.js. Observação: elabore o programa usando a tecnologia do
+                        papel e depois com tecnologia computacional.</p>
+                    <button onclick="gerarFila()">Gerar Fila</button><br><br>
+                    <button onclick="desfazerFila()">Desfazer Fila</button>
+                    <div class="res2">
+                        <div id="res11_fila"></div>
+                        <div id="res11_desf"></div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="container">
+            <div class="container_title">
+                <h1>Exemplo de programa com FOR, WHILE e IF</h1>
+            </div>
+            <article>
+                <div class="content_container">
+                    <img class="image" src="../assets/img/javaScript_codes/exemple_for.png" alt="">
+                    <h1>Laço FOR</h1>
+                    <hr>
+                    <p class="content_title">A imagem acima é uma representação visual de um laço for simples e aqui
+                        embaixo está o código</p>
+                    <button onclick="resultadoFor()">Mostrar Resultado</button>
+                    <div class="res2">
+                        <div id="res12_vet1"></div>
+                        <div id="res12_vet2"></div>
+                        <div id="res12_soma"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="content_container">
+                    <img class="image" src="../assets/img/javaScript_codes/exemple_while.png" alt="">
+                    <h1>Laço WHILE</h1>
+                    <hr>
+                    <p class="content_title">A imagem acima é uma representação visual de um while for simples e aqui
+                        embaixo está o código</p>
+                    <button onclick="resultadoWhile()">Mostrar Resultado</button>
+                    <div class="res2">
+                        <div id="res13_array"></div>
+                        <div id="res13_media"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="content_container">
+                    <img class="image" src="../assets/img/javaScript_codes/exemple_if.png" alt="">
+                    <h1>Estrutura IF, ELSE, ELSE-IF</h1>
+                    <hr>
+                    <p class="content_title">A imagem acima é uma representação visual de uma estrutura if, else,
+                        else-if e aqui embaixo está o código</p>
+                    <label class="content_title" for="idade">digite sua idade</label><br>
+                    <input type="number" id="idade" name="idade"><br><br>
+                    <button onclick="resultadoIf()">Mostrar Resultado</button>
+                    <div class="res2">
+                        <div id="res14_idade"></div>
+                    </div>
                 </div>
             </article>
         </div>
     </main>
 </body>
+
 </html>
