@@ -1,38 +1,34 @@
-body{
+body {
     background-color: rgb(192, 108, 132);
     color: black;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     height: 100vh;
 }
-header{
+
+header {
     background-color: rgb(108, 86, 123);
     height: 50px;
     padding: 15px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-hr{
+
+hr {
     margin-top: 15px;
-    background-color: rgb(180, 69, 80);
-    height: 2px;
-    margin-bottom: 15px;
-    border: 0;
-}
-input{
-    background-color:  rgb(246, 114, 128);
-    color: rgb(180, 69, 80);
-    border: none;
     border-radius: 15px;
-    padding: 10px;
+    width: 200%;
     font-size: 18px;
     transition: 0.3s;
     width: 100px;
 }
-input:placeholder{
+
+input:placeholder {
     color: rgb(0, 0, 0);
 }
-button{
+
+button {
     background-color: rgb(180, 69, 80);
     color: rgb(246, 114, 128);
     border: none;
@@ -41,51 +37,60 @@ button{
     font-size: 18px;
     transition: 0.3s;
 }
-img{
+
+img {
     border-radius: 15px;
 }
-iframe{
+
+iframe {
     border-radius: 15px;
 }
-.image{
+
+.image {
     border: 12px solid rgb(246, 114, 128);
 }
-.itens_centralizer{
-    display: flex;
-    font-size: 25px;
-    margin-left: 83.5vh;
+
+.icons_container {
+    font-size: 30px;
 }
-.main_title{
+
+.itens_centralizer {
+    font-size: 25px;
+}
+
+.main_title {
     color: rgb(189, 174, 194);
 }
-.icons_container{
-    margin-left: 68vh;
-    margin-top: 50px;
-}
-#icon{
+
+#icon {
     margin-right: 10px;
     color: rgb(189, 174, 194);
     transition: 300ms;
 }
-#icon:hover{
+
+#icon:hover {
     color: rgb(223, 212, 226);
     transition: 300ms;
 }
-.container{
+
+.container {
     background-color: rgb(248, 177, 149);
+    justify-self: center;
     margin: 15px;
     padding: 0px;
     height: auto;
     padding-bottom: 15px;
-    width: 1000px;
+    width: 100%;
     border-radius: 22px;
 }
-.image_centralizer{
+
+.image_centralizer {
     width: 1000px;
     display: flex;
     justify-content: center;
 }
-.container_title{
+
+.container_title {
     background-color: rgb(246, 114, 128);
     width: auto;
     justify-content: center;
@@ -97,55 +102,66 @@ iframe{
     border-top-right-radius: 20px;
     margin-bottom: 15px;
 }
-.content_container{
+
+.content_container {
     width: 940px;
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
 }
-.content_title{
+
+.content_title {
     color: rgb(190, 95, 57);
 }
-.content_container{
+
+.content_container {
     align-self: center;
     text-align: center;
 }
-.divided_container{
+
+.divided_container {
     display: flex;
     justify-content: center;
     gap: 25vh;
 }
-.divided_container2{
+
+.divided_container2 {
     display: flex;
     justify-content: center;
     gap: 10vh;
 }
-.divided_container_button{
+
+.divided_container_button {
     display: flex;
     justify-content: center;
     gap: 50vh;
     margin: 15px;
 }
-.divided_container_button2{
+
+.divided_container_button2 {
     display: flex;
     justify-content: center;
     gap: 34vh;
     margin: 15px;
 }
-.divided_container_button3{
+
+.divided_container_button3 {
     display: flex;
     justify-content: center;
     gap: 18vh;
     margin: 15px;
 }
-.descending{
+
+.descending {
     margin-left: 18px;
 }
-.beginning{
+
+.beginning {
     margin-right: 30px;
     margin-left: 30px;
 }
-.res{
+
+.res {
     width: 32%;
     padding: 15px;
     border-radius: 15px;
@@ -155,7 +171,8 @@ iframe{
     background-color: rgb(246, 114, 128);
     transition: 0.3s;
 }
-.res2{
+
+.res2 {
     margin-top: 10px;
     width: 32%;
     padding: 15px;
@@ -165,5 +182,5 @@ iframe{
     font-size: 18px;
     color: rgb(255, 255, 255);
     background-color: rgb(246, 114, 128);
-    transition: 0.3s; 
+    transition: 0.3s;
 }
